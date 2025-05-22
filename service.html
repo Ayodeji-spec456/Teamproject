@@ -54,13 +54,13 @@
             </div>
 
             <div
-              class="flex justify-between gap-20 bg-white mt-6 shadow-[0_20px_20px_rgba(0,0,0,0.20)] pt-10 p-6 w-100 h-40 rounded-4xl"
+              class="fixed gap-12 md:sticky md: pl-16 py-6 left-15 flex md:justify-between lg:gap-20 bg-white lg:mt-6 shadow-[0_20px_20px_rgba(0,0,0,0.20)] lg:pt-10 lg:p-6 lg:w-100 w-90 lg:h-40 h-20 rounded-4xl"
             >
               <p class="font-bold">
                 From $50<span class="text-neutral-600">/guest</span>
               </p>
               <button
-                class="bg-rose-600 rounded-full text-white py-2 px-4 h-10"
+                class="bg-rose-600 rounded-full border border-rose-600  text-white p-2 md:py-2 md:px-4 h-10"
               >
                 Reserve
               </button>
@@ -69,7 +69,7 @@
         </div>
       </div>
 
-      <div class="">
+      <div class="my-100 lg:my-0">
         <div class="flex my-6">
           <div>
             <img
@@ -265,17 +265,59 @@
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d180748.84109702395!2d-93.27086301090351!3d44.939588985630074!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x52b2d4cee4e9379f%3A0xc87291d23fda2e29!2sSt%20Paul%2C%20MN%2C%20USA!5e0!3m2!1sen!2sng!4v1747916218434!5m2!1sen!2sng"
               width="600"
               height="450"
-              style="border: 0; border-radius: 20px;"
+              style="border: 0; border-radius: 20px; overflow: hidden;"
               allowfullscreen=""
               loading="lazy"
-              referrerpolicy="no-referrer-when-downgrade" 
+              referrerpolicy="no-referrer-when-downgrade"
             ></iframe>
           </div>
           <p class="text-neutral-600">You can also come to me:</p>
           <p class="text-neutral-600">Saint Paul, Minnesota, 55102.</p>
         </div>
         <hr class="text-neutral-600 my-2" />
-        
+
+        <div class="m-2">
+          <h2 class="font-bold text-2xl my-1">Things to know</h2>
+          <div class="block md:grid grid-cols-2 gap-4">
+            <div>
+              <i class="fa-solid fa-user py-2"></i>
+              <p class="font-bold">Guest requirement</p>
+              <p class="text-neutral-600">
+                Guest age 2 and up can attend, up to 10 guest total.
+              </p>
+            </div>
+
+            <div>
+              <i class="fa-solid fa-wheelchair-move py-2"></i>
+              <p class="font-bold">Accessibility</p>
+              <p class="text-neutral-600">
+                Message your host for details.
+                <span class="underline">Learn more</span>
+              </p>
+            </div>
+
+            <div>
+              <i class="fa-solid fa-calendar py-2"></i>
+              <p class="font-bold">Cancellation policy</p>
+              <p class="text-neutral-600">
+                Cancel atleast 1 day before the start time for a full refund.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="block w-auto bg-violet-50 text-center p-12 my-4"
+          style="border-radius: 40px"
+        >
+          <img src="./images/badge.png" alt="" class="block w-auto w-50 h-50 mx-40" />
+          <h2 class="font-bold text-3xl mx-20">Photographers on Airbnb are vetted for quality</h2>
+          <p class="text-neutral-600 p-2 mx-12">
+            Photographers are evaluated for their professional experience,
+            portfolio of strong work, and reputation for excellence. <span class="underline">Learn more</span>
+          </p>
+        </div>
+        <p class="text-neutral-600 text-center">See an issue?.<span class="underline">Report this listing</span></p>
       </div>
     </div>
   </body>
